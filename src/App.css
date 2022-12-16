@@ -58,7 +58,7 @@ img {
   border-radius: 0 3px 0 3px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  display: none;
+  /* display: none; */
   position: relative;
   animation: slide-right 1s ease 1;
 }
@@ -87,6 +87,17 @@ img {
 .content::-webkit-scrollbar-track {
   background-color: #9d0191;
   outline: 1px solid #eee;
+}
+
+
+.resume,
+.portfolio,
+.blog,
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 4rem;
+    column-gap: 1rem;
 }
 
 /* SLIDE OUT CONTENT ANIMATION */

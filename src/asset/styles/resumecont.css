@@ -1,0 +1,72 @@
+.resume .title,
+.my-skills .title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #4f524f;
+}
+
+.resume .year,
+.contact-details .title {
+    font-size: 1.3rem;
+    background-color: #9d0191;
+    display: inline-block;
+    color: #eee;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.specific-details{
+    padding-bottom: 10px;
+}
+
+.resume .year-title,
+.portfolio-item p.portfolio-title,
+.blog-post .post-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #363836;
+
+}
+
+.resume .year-desc,
+.portfolio-item p.portfolio-desc,
+.blog-post .post-desc {
+    font-size: 1.4rem;
+}
+
+.content-line {
+    width: 100%;
+    height: 1.5px;
+    background: linear-gradient(to right, #9d0191,#ffb640);
+    margin-top: 2rem;
+}
+
+/* SKILL SECTION */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    row-gap: 2rem;
+    column-gap: 1rem;
+
+}
+
+.skill {
+    padding: 1rem 0;
+    background-color: rgba(0,0,0,.1);
+    text-align: center;
+    border-radius: 3px;
+    transform: translateY(0);
+    transition: all .3s;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    background-color: rgba(0,0,0,.2);
+}
+
+.skill p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #363836;
+}

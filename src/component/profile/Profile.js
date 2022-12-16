@@ -38,7 +38,7 @@ const Profile = () => {
             >GitHub</Link
           >
         </div>
-        <div><a to="index.html#contact">Contact Me</a></div>
+        <div><Link to="index.html#contact">Contact Me</Link></div>
       </div>
     </div>
   </div>
