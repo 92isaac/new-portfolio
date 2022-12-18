@@ -16,17 +16,10 @@ const Abtcont = () => {
           <img src={Passport} alt="profile" />
           <p>
             <span class="text">Hello! I'm</span>
-            <span class="name"> SANGODARE ISAAC</span>
+            <span class="name"> Isaac</span>
           </p>
-          <p>
-            Software Developer from Lagos, Nigeria. I have rich experience in
-            web and software development. I love to write code that are
-            thoughtful, meaningful, readable and reusable. Actively present,
-            constantly learning and still learning. Skilled in solving problems.
-            I'm focus on being a valuable member of any team. A Certified
-            professional in Project and Facility management, health safety and
-            Environment and also dedicated Planner with adept knowledge of
-            working in the Environmental Services industry.
+          <p style={{textAlign:'justify'}}>
+          A seasoned software developer with over 2 years of experience in the industry, I am proficient in creating scalable, reliable, and maintainable code. I have a strong understanding of Javascript and Python programming languages and frameworks (React, Django, jQuery). I am a lifelong learner and am always seeking new opportunities to grow and improve as a developer. I am a reliable and dedicated team player, and I am confident in my ability to contribute valuable solutions to any project.
           </p>
         </div>
       </div>

@@ -21,7 +21,7 @@ nav ul li:not(:last-child) {
     border-bottom: 1px solid #eee;
 }
 
-nav li i {
+nav li svg {
     font-size: 1.6rem;
     color: #4f524f;
     padding-bottom: 5px;
@@ -38,6 +38,11 @@ nav li a:hover {
     color: #9d0191;
 }
 
-.active > * {
+.active {
     color: #9d0191;
+}
+
+.active{
+    color: #9d0191;
+    font-weight: 900;
 }

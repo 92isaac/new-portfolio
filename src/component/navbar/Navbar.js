@@ -1,21 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../asset/styles/navbar.css";
-
+import { FaUserAlt, FaPollH, FaPencilAlt, FaStackExchange, FaEnvelope } from 'react-icons/fa'
 const Navbar = () => {
   return (
     <header>
       <div className="container">
         <nav id="nav-ul">
           <ul className="nav-ul">
-            <li className="nav-li active">
-              <i className="fas fa-user"></i>
+            <li className="nav-li">
+              <FaUserAlt />
               <NavLink to="/" className="link" data-filter="content-about">
                 About
               </NavLink>
             </li>
             <li className="nav-li">
-              <i className="fas fa-poll-h"></i>
+              <FaPollH />
               <NavLink
                 to="/resume"
                 className="link"
@@ -25,7 +25,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-li">
-              <i className="fas fa-pencil-alt"></i>
+              <FaPencilAlt/>
               <NavLink
                 to="/portfolio"
                 className="link"
@@ -35,13 +35,13 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-li">
-              <i className="fab fa-stack-exchange"></i>
-              <NavLink to="#blog" className="link" data-filter="content-blog">
+              <FaStackExchange />
+              <NavLink to="/blog" className="link" data-filter="content-blog">
                 Blog
               </NavLink>
             </li>
             <li className="nav-li">
-              <i className="fas fa-envelope"></i>
+              <FaEnvelope />
               <NavLink
                 to="/contact"
                 className="link"

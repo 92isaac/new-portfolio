@@ -28,7 +28,11 @@
     color: #363836;
 
 }
-
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
 .resume .year-desc,
 .portfolio-item p.portfolio-desc,
 .blog-post .post-desc {

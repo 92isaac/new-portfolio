@@ -1,14 +1,14 @@
 import React from 'react'
-import Portfoliocont from '../component/porfolio/Portfoliocont'
+import Blogcont from '../component/blog/Blogcont'
 import Profile from '../component/profile/Profile'
 
-const Portfolio = () => {
+const Blog = () => {
   return (
     <div className='container main-container'>
         <Profile />
-        <Portfoliocont />
+        <Blogcont />
     </div>
   )
 }
 
-export default Portfolio
+export default Blog

@@ -22,11 +22,11 @@ const Resumecont = () => {
                 <p class="year">Aug 2021-Dec 2021</p>
                 <div class="year-details">
                   <p class="year-title">Lagos School of Programming</p>
-                  <p class="year-desc">Full-Stack Developer</p>
+                  <p class="year-desc">Full-Stack Developer (Intern)</p>
                 </div>
               </div>
 
-              <div class="specific-details">
+              {/* <div class="specific-details">
                 <p class="year">2019-2020</p>
                 <div class="year-details">
                   <p class="year-title">
@@ -37,7 +37,7 @@ const Resumecont = () => {
                     Management
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div class="specific-details">
                 <p class="year">2012-2018</p>
                 <div class="year-details">
@@ -55,7 +55,7 @@ const Resumecont = () => {
             <div class="title">
               <h3>Experience</h3>
             </div>
-            <div class="details">
+            <div class="detail">
               <div class="specific-details">
                 <p class="year">April, 2020 - Till-date</p>
                 <div class="year-details">

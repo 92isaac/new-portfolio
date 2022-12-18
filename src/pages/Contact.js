@@ -1,14 +1,14 @@
 import React from 'react'
-import Portfoliocont from '../component/porfolio/Portfoliocont'
 import Profile from '../component/profile/Profile'
+import Contactcont from '../component/contact/Contactcont'
 
-const Portfolio = () => {
+const Contact = () => {
   return (
     <div className='container main-container'>
         <Profile />
-        <Portfoliocont />
+        <Contactcont />
     </div>
   )
 }
 
-export default Portfolio
+export default Contact
