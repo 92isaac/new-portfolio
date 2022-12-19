@@ -45,7 +45,6 @@ const Contactcont = () => {
                     <input
                       type="submit"
                       value="Send Message"
-                      onclick="sendMail()"
                     />
                   </form>
                 </div>
