@@ -32,4 +32,91 @@ export const profileList =[
 ]
 
 
-// export const 
+export const resumeEdu =[
+    {
+        date:'Aug 2021-Dec 2021',
+        location:'Lagos School of Programming',
+        title:'Full-Stack Developer (Intern)',
+    },
+    {
+        date:'2012-2018',
+        location:'Ladoke Akintola University of Technology',
+        title:'B.Tech Urban and Regional Planning',
+    },
+]
+
+export const resumeExp =[
+    {
+        year:'September, 2021 - Till Date',
+        title:'Fullstack Developer/ Intructor',
+        desc:'Lagos School of Programming',
+    },
+    {
+        year:'August, 2021 - August 2022',
+        title:'Frontend Developer/ Intructor',
+        desc:'Lagos School of Programming',
+    },
+    {
+        year:'April, 2020 - Till-date',
+        title:'Self-taught Programmer',
+        desc:'Web Developer',
+    },
+    {
+        year:'Jun, 2020 - Sept 2020',
+        title:'Project Manager',
+        desc:'CityScape Planning Service',
+    },
+    {
+        year:'2016- Till date',
+        title:'Freelancer',
+        desc:'Freelancer on fiverr',
+    },
+]
+
+
+export const resumeSkills=[
+    {
+        img:'',
+        skill:'HTML',
+    },
+    {
+        img:'',
+        skill:'CSS',
+    },
+    {
+        img:'',
+        skill:'JavaScript',
+    },
+    {
+        img:'',
+        skill:'React',
+    },
+    {
+        img:'',
+        skill:'Python',
+    },
+    {
+        img:'',
+        skill:'Django',
+    },
+    {
+        img:'',
+        skill:'Jquery',
+    },
+    {
+        img:'',
+        skill:'Github',
+    },
+    {
+        img:'',
+        skill:'Sass',
+    },
+    {
+        img:'',
+        skill:'Tailwind',
+    },
+    {
+        img:'',
+        skill:'Bootstrap',
+    },
+]
