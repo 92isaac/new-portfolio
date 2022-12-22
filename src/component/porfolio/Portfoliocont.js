@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import '../../asset/styles/potfolio.css'
 import { profileList } from "../../data/dataList";
 import Portfolioprops from "./Portfolioprops";

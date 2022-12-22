@@ -1,3 +1,15 @@
+import html from '../asset/images/html.png'
+import css from '../asset/images/css logo.png'
+import js from '../asset/images/js.jpg'
+import django from '../asset/images/django.png'
+import reactimg from '../asset/images/react.png'
+import py from '../asset/images/Python-png.png'
+import jquery from '../asset/images/JQuery-Logo.wine.png'
+import github from '../asset/images/git.png'
+import sass from '../asset/images/sass.png'
+import tailwind from '../asset/images/tailwind-css.svg'
+import bootstrap from '../asset/images/bootstrap.png'
+
 export const profileList =[
     {
         img:'images/Weather App - Google Chrome 12_25_2021 4_36_37 PM.png',
@@ -76,47 +88,47 @@ export const resumeExp =[
 
 export const resumeSkills=[
     {
-        img:'',
+        img:html,
         skill:'HTML',
     },
     {
-        img:'',
+        img:css,
         skill:'CSS',
     },
     {
-        img:'',
+        img:js,
         skill:'JavaScript',
     },
     {
-        img:'',
+        img:reactimg,
         skill:'React',
     },
     {
-        img:'',
+        img:py,
         skill:'Python',
     },
     {
-        img:'',
+        img:django,
         skill:'Django',
     },
     {
-        img:'',
+        img:jquery,
         skill:'Jquery',
     },
     {
-        img:'',
+        img:github,
         skill:'Github',
     },
     {
-        img:'',
+        img:sass,
         skill:'Sass',
     },
     {
-        img:'',
+        img:tailwind,
         skill:'Tailwind',
     },
     {
-        img:'',
+        img:bootstrap,
         skill:'Bootstrap',
     },
 ]

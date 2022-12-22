@@ -3,7 +3,7 @@ import Typed from "react-typed"
 
 const TypinEffect = () => {
   return (
-    <h1>
+    <>
         <Typed
       strings={[
         "Sotware Developer", "Instructor", "Health/Safety Engineer", "Planning Advisor"
@@ -12,7 +12,7 @@ const TypinEffect = () => {
           backSpeed={100}
           loop
         />
-    </h1>
+    </>
   )
 }
 
