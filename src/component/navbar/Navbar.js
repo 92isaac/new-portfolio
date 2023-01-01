@@ -1,13 +1,14 @@
-import React, { useContext } from "react";
+// import React, { useContext } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../asset/styles/navbar.css";
 import { FaUserAlt, FaPollH, FaPencilAlt, FaStackExchange, FaEnvelope } from 'react-icons/fa'
-import ReactSwitch from 'react-switch'
-import { ThemeMode } from "../../App";
+// import ReactSwitch from 'react-switch'
+// import { ThemeMode } from "../../App";
 
 
 const Navbar = () => {
-  const {theme, toggleTheme} = useContext(ThemeMode)
+  // const {theme, toggleTheme} = useContext(ThemeMode)
   return (
     <header>
       <div className="container">
@@ -56,8 +57,8 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-li switch">
-            <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+            {/* <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label> */}
+          {/* <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /> */}
             </li>
           </ul>
         </nav>

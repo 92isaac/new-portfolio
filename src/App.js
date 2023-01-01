@@ -1,3 +1,4 @@
+import { createContext, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./component/navbar/Navbar";
@@ -6,7 +7,11 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import { createContext, useState } from "react";
+// const About = lazy(()=>(import("./pages/About")))
+// const Portfolio = lazy(()=>(import("./pages/Portfolio")))
+// const Resume  =lazy(()=>(import("./pages/Resume")))
+// const Blog= lazy(()=>(import("./pages/Blog")))
+// const Contact = lazy(()=>(import("./pages/Contact")))
 
 export const ThemeMode = createContext(null);
 
@@ -25,7 +30,8 @@ function App() {
 
   return (
     <ThemeMode.Provider value={themeData}>
-      <div className="body" id={theme}>
+       {/* <Suspense fallback={<h1 className="loading">Loading</h1>}> */}
+      {/* <div className="body" id={theme}> */}
         <div className="all">
           <Navbar />
           <Routes>
@@ -36,7 +42,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-      </div>
+      {/* </div> */}
+      {/* </Suspense> */}
     </ThemeMode.Provider>
   );
 }
